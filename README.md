@@ -32,71 +32,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The cloud-native networking and security market—spanning Cloud-Native Application Protection Platforms (CNAPP), eBPF dataplanes, and multi-cloud networking—is valued at approximately **$9.4B to $14.5B** and projected to surpass **$50B+ by the early 2030s** at an estimated CAGR of **24%–28%**. The sector is **moderately to highly fragmented**, characterized by high-velocity coexistence and ongoing consolidation between hyper-scale infrastructure conglomerates (Broadcom, Cisco, IBM/Red Hat), pure-play cloud security pioneers (Palo Alto Networks, Sysdig, Aqua Security), and open-source enterprise distributions.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Isovalent Enterprise Cilium (Cisco)](https://isovalent.com/)**  
-
-  **Enterprise version of Cilium with troubleshooting, operational support, and multi-cluster capabilities** . **Cluster Mesh** enables **failover to other clusters** when resources become unavailable or misconfigured . **Cisco acquired Isovalent** in 2024, integrating Cilium into Cisco's multicloud networking portfolio . **The most mature commercial eBPF networking platform** .
-
-
-
-- **[Tigera Calico Enterprise](https://www.tigera.io/)**  
-
-  **Self-managed platform for Kubernetes networking, network security, and observability** . **Extends Calico Open Source** with **hierarchical tiered network policy**, **DNS/FQDN-based policy**, **policy recommendations**, **SIEM integrations**, **workload-centric WAF**, and **compliance reporting** . **Calico Cloud Free Tier** provides **observability and policy management for a single cluster** at no cost . **The enterprise standard** for organizations requiring regulatory compliance.
-
-
-
-- **[VMware NSX](https://www.vmware.com/)**  
-
-  **Enterprise network virtualization and security platform** with container networking via **NSX Container Plugin (NCP)** . **The most integrated with VMware ecosystem** for organizations running vSphere and Tanzu.
-
-
-
-- **[Red Hat Advanced Cluster Security (StackRox)](https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes)**  
-
-  **Kubernetes-native security platform** (built on StackRox OSS) . Features **vulnerability management**, **configuration management**, **network segmentation**, **risk profiling**, **threat detection**, and **compliance reporting** . **The standard for OpenShift security** .
-
-
-
-- **[Aqua Security](https://www.aquasec.com/)**  
-
-  **Cloud-native security platform** with **vulnerability scanning**, **runtime protection**, **secrets management**, and **compliance** . **The most comprehensive CNAPP** for container and cloud workloads .
-
-
-
-- **[Sysdig Secure](https://sysdig.com/)**  
-
-  **Cloud-native security with runtime insights** powered by **Falco** (which Sysdig created) . Features **threat detection**, **vulnerability management**, **compliance**, and **forensics** . **The most runtime-focused commercial platform** .
-
-
-
-- **[Palo Alto Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud)**  
-
-  **Comprehensive CNAPP** with **CWPP, CSPM, CIEM, and code security** . **The most comprehensive enterprise platform** for multi-cloud security .
-
-
-
-- **[NeuVector (SUSE)](https://neuvector.com/)**  
-
-  **Full lifecycle container security platform**—**the only open-source solution with Layer 7 container firewall** . Features **deep packet inspection**, **process profiling**, **DLP**, and **admission control** . **The most security-focused open-source container platform** .
-
-
-
-- **[Dynatrace](https://www.dynatrace.com/)**  
-
-  **Observability platform with Kubernetes security** . Features **runtime vulnerability analytics**, **threat detection**, and **automated remediation** .
+| Platform | Company Valuation / Revenue | Starting Pricing Tier | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[VMware NSX](https://www.vmware.com/)** | **~$1.65T** (Broadcom parent market cap) | ~$90 – $115 per core/year (via VMware Cloud Foundation subscription; 16 cores/CPU minimum) | **60-day free evaluation** (enterprise trial with full feature access via Broadcom portal) | Enterprise network virtualization and security platform with container networking via NSX Container Plugin (NCP) for vSphere & Tanzu. |
+| **[Isovalent Enterprise Cilium (Cisco)](https://isovalent.com/)** | **~$430B** (Cisco parent market cap; acquired for ~$650M) | ~$600 per node/year (Enterprise Essentials tier, annual commit) | **Free interactive sandbox labs** (guided browser sessions at isovalent.com/labs with no cluster limits; custom 30-day enterprise PoC on request) | Enterprise version of Cilium with troubleshooting, operational support, multi-cluster Cluster Mesh, and commercial eBPF networking. |
+| **[Palo Alto Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud)** | **~$310B** (Market Cap) | ~$18,000/year (or ~$1.20 per credit; 2 credits/VM for Foundations, 5 credits/VM for Advanced) | **30-day free trial** (access to CSPM, CWPP, and code security modules without upfront credit card commitment) | Comprehensive CNAPP platform offering CWPP, CSPM, CIEM, WAAS, and code-to-cloud security across multi-cloud environments. |
+| **[Red Hat Advanced Cluster Security (StackRox)](https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes)** | **~$212B** (IBM parent market cap; acquired Red Hat for $34B) | ~$0.028 per vCPU/hour on-demand (RHACS Cloud Service via AWS Marketplace) | **60-day free trial** (self-supported trial limited to 20 cores or 80 vCPUs across Kubernetes/OpenShift clusters) | Kubernetes-native security platform featuring vulnerability management, network segmentation, risk profiling, and compliance reporting. |
+| **[Dynatrace](https://www.dynatrace.com/)** | **~$18.5B** (Market Cap) | $0.00225 per memory-GiB-hour (~$13/month per 8 GiB host for Application Security) | **15-day free trial** (includes full-stack observability and runtime vulnerability analytics) | Unified observability platform featuring runtime Kubernetes vulnerability analytics, threat detection, and automated remediation. |
+| **[NeuVector (SUSE)](https://neuvector.com/)** | **~$6.0B** (SUSE private equity valuation) | ~$112 per node/month (AWS Marketplace pay-as-you-go; 5–15 nodes bracket) | **Free forever open-source edition** (full Layer 7 container firewall on GitHub with no node limits; commercial NeuVector Prime features a 30-day eval) | Full lifecycle container security platform featuring Layer 7 container firewall, deep packet inspection, and process profiling. |
+| **[Sysdig Secure](https://sysdig.com/)** | **~$2.5B** (Valuation at Series G) | $72 per host/month (CNAPP Enterprise tier, 20-host minimum commitment) | **30-day free trial** (full runtime threat detection, Falco rules engine, and CSPM features) | Cloud-native security platform with deep runtime threat detection, vulnerability management, and forensics powered by Falco. |
+| **[Aqua Security](https://www.aquasec.com/)** | **~$1.0B+** (Valuation at Series E) | ~$35 – $55 per workload/month (Enterprise list price; or ~$10,000/year entry package) | **14-day free trial** (full CNAPP workload protection evaluation; unlimited free open-source scanner via Trivy) | Cloud-native security platform covering vulnerability scanning, container runtime protection, secrets management, and compliance. |
+| **[Tigera Calico Enterprise](https://www.tigera.io/)** | **~$250M – $350M** (Estimated; $53M total VC funding raised) | $0.025 per vCPU/hour (Calico Cloud consumption billing via AWS/Azure Marketplace) | **Free forever plan** (strictly 1 connected Kubernetes cluster running Calico OSS 3.30+, includes 24-hr flow log retention and service graph) | Self-managed and SaaS platform for Kubernetes networking, hierarchical tiered network policies, SIEM integrations, and workload-centric WAF. |
 
 
 
