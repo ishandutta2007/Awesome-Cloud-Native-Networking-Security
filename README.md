@@ -72,7 +72,7 @@ The cloud-native networking and security market—spanning Cloud-Native Applicat
 
 ## 🔓 Open-Source GitHub Projects
 
-*Sorted descending by repository GitHub stars count. Each star badge links directly to that repository's stargazers page.*
+*Sorted descending by repository GitHub_Stars_Count. Each Stars_Badge links directly to that repository's stargazers page.*
 
 1. **[Trivy](https://github.com/aquasecurity/trivy)** [![Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)  
    **Comprehensive security scanner for vulnerabilities, misconfigurations, secrets, and SBOMs** (Apache-2.0). Scans container images, filesystems, Git repositories, virtual machine disks, Kubernetes clusters, and Infrastructure as Code (Terraform, CloudFormation). The de facto default scanner for DevSecOps CI/CD pipelines.
@@ -176,7 +176,7 @@ Contributions are welcome and highly appreciated! To contribute:
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-tool`).
-3. ✏️ **Add or update entries** in `README.md` following the established format (include license, links, star badges for open-source repos, and concise technical summaries).
+3. ✏️ **Add or update entries** in `README.md` following the established format (include license, links, Stars_Badges for open-source repos, and concise technical summaries).
 4. 📬 **Submit a Pull Request** with a brief rationale for the addition.
 5. ⭐ **Star the repo** if you find it helpful!
 
